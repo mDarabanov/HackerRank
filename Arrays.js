@@ -1,0 +1,12 @@
+let list1 = [1, 2, 3, 4, 5];
+let list3 = list1.slice();
+let list2 = [...list1];
+let list4 = list1.concat([]);
+list1.push(1);
+list2.push(6);
+list3.push(9);
+list4.push(10);
+console.log(list1);
+console.log(list2);
+console.log(list3);
+console.log(list4);
